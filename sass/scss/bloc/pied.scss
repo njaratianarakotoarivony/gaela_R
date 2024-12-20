@@ -1,0 +1,11 @@
+.pied{
+    margin-left: 300px;
+    @include respond-to ("phone") {
+        margin: 0;
+     }
+    p{
+        @include respond-to ("phone") {
+            font-size: 9px;
+         }
+    }
+}

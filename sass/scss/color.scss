@@ -1,0 +1,41 @@
+$primary-color:rgb(93, 93, 148);
+$secondary-color:rgb(93, 93, 148);
+$text-color:white;
+$lien-color: black;
+$titre-color:  rgb(107, 181, 188);
+$menu-color: transparent;
+
+    .menu{
+        background: $secondary-color;
+    }
+    header{
+        background-color: $secondary-color;
+        color: $text-color;
+    }
+    a{
+        color: $lien-color;
+        background-color: $menu-color;
+    }
+    h1{
+        color: $titre-color; 
+    }
+    .page2{
+        background-color: rgb(189, 70, 90);
+    }
+    .page4{
+        background-color: gray;
+    }
+    
+
+    .pied{
+    color: black;
+   }
+   .droite{
+    background-color: palegoldenrod;
+   }
+   .fas{
+    color: rgb(39, 65, 66);
+}
+    .fab{
+    color: rgb(11, 11, 46);
+}

@@ -1,0 +1,361 @@
+.menu {
+  background: rgb(93, 93, 148);
+}
+
+header {
+  background-color: rgb(93, 93, 148);
+  color: white;
+}
+
+a {
+  color: black;
+  background-color: transparent;
+}
+
+h1 {
+  color: rgb(107, 181, 188);
+}
+
+.page2 {
+  background-color: rgb(189, 70, 90);
+}
+
+.page4 {
+  background-color: gray;
+}
+
+.pied {
+  color: black;
+}
+
+.droite {
+  background-color: palegoldenrod;
+}
+
+.fas {
+  color: rgb(39, 65, 66);
+}
+
+.fab {
+  color: rgb(11, 11, 46);
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 300px) {
+  body {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+main .menu {
+  width: 233px;
+  padding: 2rem;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+@media screen and (max-width: 300px) {
+  main .menu {
+    position: relative;
+    width: 80px;
+    height: 345vh;
+    position: relative;
+  }
+}
+
+header {
+  background-color: rgb(93, 93, 148);
+  text-align: center;
+  padding-top: 20px;
+}
+@media screen and (max-width: 300px) {
+  header {
+    font-size: 10px;
+  }
+}
+
+.principal {
+  border-radius: 120px;
+  max-width: 100%;
+  border: 2px solid rgb(12, 34, 135);
+  height: 4cm;
+  width: 4cm;
+  margin-left: 25px;
+}
+@media screen and (max-width: 300px) {
+  .principal {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+ul {
+  padding: 0;
+}
+ul li {
+  list-style: none;
+  margin: 2rem;
+  font-size: 1.5rem;
+  font-style: oblique;
+}
+@media screen and (max-width: 300px) {
+  ul li {
+    font-size: 2px;
+    font-style: oblique;
+  }
+}
+
+nav {
+  padding-left: 50px;
+}
+@media screen and (max-width: 300px) {
+  nav {
+    position: relative;
+    width: 200px;
+    height: 400px;
+  }
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+}
+@media screen and (max-width: 300px) {
+  h1 {
+    font-size: 11px;
+    padding-right: 20px;
+  }
+}
+
+p {
+  font-size: small;
+}
+@media screen and (max-width: 300px) {
+  p {
+    font-size: 8px;
+    padding-right: 30px;
+  }
+}
+
+.droite {
+  margin-left: 300px;
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 300px) {
+  .droite {
+    width: 220px;
+    height: 100vh;
+    margin-left: 0;
+    padding: 0;
+  }
+}
+
+.fab {
+  font-size: 1rem;
+  padding-left: 10px;
+}
+@media screen and (max-width: 300px) {
+  .fab {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  label {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .fas {
+    font-size: 8px;
+  }
+}
+
+.page1 {
+  padding-left: 50px;
+  font-size: 2rem;
+}
+@media screen and (max-width: 300px) {
+  .page1 {
+    margin-top: -300px;
+  }
+}
+.page1 .division {
+  display: flex;
+}
+@media screen and (max-width: 300px) {
+  .page1 .division {
+    display: block;
+  }
+}
+.page1 .sary {
+  padding-right: 2cm;
+}
+@media screen and (max-width: 300px) {
+  .page1 .sary img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.page2 {
+  padding-left: 50px;
+}
+
+.division2 {
+  display: flex;
+}
+@media screen and (max-width: 300px) {
+  .division2 {
+    display: block;
+  }
+}
+
+.sary2 {
+  padding-right: 2cm;
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 300px) {
+  .sary2 img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.page3 .bouton {
+  width: 5cm;
+  height: 2cm;
+  background-color: paleturquoise;
+  border-radius: 5rem;
+  font-size: 1rem;
+  margin-left: 11cm;
+}
+.page3 .bouton {
+  width: 5cm;
+  height: 2cm;
+  background-color: paleturquoise;
+  border-radius: 5rem;
+  font-size: 1rem;
+  margin-left: 9cm;
+}
+@media screen and (max-width: 300px) {
+  .page3 .bouton {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    font-size: 6px;
+    height: 30px;
+  }
+}
+
+.page4 {
+  padding-left: 3cm;
+}
+@media screen and (max-width: 300px) {
+  .page4 {
+    margin: 0;
+    padding: 0;
+  }
+}
+.page4 .bouton {
+  width: 5cm;
+  height: 2cm;
+  background-color: paleturquoise;
+  border-radius: 5rem;
+  font-size: 1rem;
+  margin-left: 9cm;
+}
+@media screen and (max-width: 300px) {
+  .page4 .bouton {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    font-size: 6px;
+    height: 30px;
+  }
+}
+
+.pied {
+  margin-left: 300px;
+}
+@media screen and (max-width: 300px) {
+  .pied {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 300px) {
+  .pied p {
+    font-size: 9px;
+  }
+}
+
+.element-slide_text {
+  display: inline-block;
+  margin: 1em;
+  width: 300px;
+  padding: 0px 20px;
+}
+@media screen and (max-width: 300px) {
+  .element-slide_text {
+    margin: 0;
+    padding: 0;
+  }
+}
+.element-slide_text:not(:first-child) {
+  margin-left: 3cm;
+}
+@media screen and (max-width: 300px) {
+  .element-slide_text:not(:first-child) {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 300px) {
+  .element-slide_text img {
+    width: 50px;
+    height: 50px;
+    padding-left: 50px;
+  }
+}
+.element-slide_text .text {
+  width: 100%;
+}
+.element-slide_text .text p {
+  margin: 0;
+  padding: 0;
+  font-size: x-small;
+}
+@media screen and (max-width: 300px) {
+  .element-slide_text .text p {
+    font-size: 6px;
+    box-sizing: border-box;
+    padding-right: 100px;
+  }
+}
+
+.diplomas {
+  width: 50%;
+  height: 4cm;
+}
+
+.image1 {
+  width: 4cm;
+  height: 4cm;
+}
+
+.image_visage {
+  width: 4cm;
+  height: 4cm;
+}
+
+/*# sourceMappingURL=style.css.map */

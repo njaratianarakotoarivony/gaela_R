@@ -1,0 +1,23 @@
+.page4{
+    padding-left: 3cm;
+    @include respond-to ("phone") {
+      margin: 0;
+      padding: 0;
+   }
+
+    .bouton{
+        width: 5cm;
+        height: 2cm;
+        background-color: paleturquoise;
+        border-radius: 5rem;
+        font-size: 1rem;
+      margin-left: 9cm;
+      @include respond-to ("phone") {
+        margin: 0;
+        padding: 0;
+        width: 50px;
+      font-size: 6px;
+      height: 30px;
+     }
+    }
+}
